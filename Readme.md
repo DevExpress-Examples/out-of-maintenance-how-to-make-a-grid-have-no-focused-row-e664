@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* **[GridFocusedRowHighlightHelper.cs](./CS/GridFocusedRowHighlightHelper.cs) (VB: [GridFocusedRowHighlightHelper.vb](./VB/GridFocusedRowHighlightHelper.vb))**
+<!-- default file list end -->
 # How to make a grid have no focused row
 
 
