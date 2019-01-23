@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.5">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
@@ -66,53 +66,58 @@
     <Reference Include="Accessibility">
       <Name>Accessibility</Name>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v17.2.Core">
-      <Name>DevExpress.Pdf.v17.2.Core</Name>
+    <Reference Include="DevExpress.Pdf.v13.1.Core">
+      <Name>DevExpress.Pdf.v13.1.Core</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Office.v17.2.Core">
-      <Name>DevExpress.Office.v17.2.Core</Name>
+    <Reference Include="DevExpress.Office.v13.1.Core">
+      <Name>DevExpress.Office.v13.1.Core</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v17.2.Core">
-      <Name>DevExpress.RichEdit.v17.2.Core</Name>
+    <Reference Include="DevExpress.Docs.v13.1">
+      <Name>DevExpress.Docs.v13.1</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v17.2.Export">
-      <Name>DevExpress.RichEdit.v17.2.Export</Name>
+    <Reference Include="DevExpress.RichEdit.v13.1.Core">
+      <Name>DevExpress.RichEdit.v13.1.Core</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Printing.v17.2.Core">
-      <Name>DevExpress.Printing.v17.2.Core</Name>
+    <Reference Include="DevExpress.RichEdit.v13.1.Export">
+      <Name>DevExpress.RichEdit.v13.1.Export</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.v17.2">
-      <Name>DevExpress.Data.v17.2</Name>
+    <Reference Include="DevExpress.Printing.v13.1.Core">
+      <Name>DevExpress.Printing.v13.1.Core</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Utils.v17.2">
-      <Name>DevExpress.Utils.v17.2</Name>
+    <Reference Include="DevExpress.Data.v13.1">
+      <Name>DevExpress.Data.v13.1</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v17.2">
-      <Name>DevExpress.XtraEditors.v17.2</Name>
+    <Reference Include="DevExpress.Utils.v13.1">
+      <Name>DevExpress.Utils.v13.1</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v17.2">
-      <Name>DevExpress.XtraPrinting.v17.2</Name>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Name>DevExpress.XtraEditors.v13.1</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v17.2">
-      <Name>DevExpress.XtraGrid.v17.2</Name>
+    <Reference Include="DevExpress.XtraPrinting.v13.1">
+      <Name>DevExpress.XtraPrinting.v13.1</Name>
+      <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1">
+      <Name>DevExpress.XtraGrid.v13.1</Name>
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
     </Reference>
