@@ -1,24 +1,20 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 
 namespace NoFocusedRow
 {
-    public partial class Form1 : Form
+    public partial class Form1 : XtraForm
     {
-        GridFocusedRowHighlightHelper focusedRowHelper;
-
         public Form1() {
             InitializeComponent();
-            focusedRowHelper = new GridFocusedRowHighlightHelper(gridView1);
         }
-
-        protected override void OnFormClosing(FormClosingEventArgs e) {
-            base.OnFormClosing(e);
-            focusedRowHelper.Deactivate();
+        protected override void OnShown(EventArgs e) {
+            base.OnShown(e);
+            gridView1.FocusInvalidRow();
         }
-
         private void Form1_Load(object sender, System.EventArgs e) {
             gridControl1.DataSource = GetData();
         }

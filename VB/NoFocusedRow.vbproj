@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.5">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
@@ -7,20 +7,26 @@
     <ProjectGuid>{DF9242C8-C52A-4DD2-96F5-63383F2F1159}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon></ApplicationIcon>
-    <AssemblyKeyContainerName></AssemblyKeyContainerName>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
     <AssemblyName>NoFocusedRow</AssemblyName>
-    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>Sub Main</StartupObject>
-    <FileUpgradeFlags></FileUpgradeFlags>
-    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
@@ -31,14 +37,17 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile></ConfigurationOverrideFile>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
-    <NoWarn></NoWarn>
+    <NoWarn>
+    </NoWarn>
     <Optimize>false</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
@@ -51,14 +60,17 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile></ConfigurationOverrideFile>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <DebugSymbols>false</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
-    <NoWarn></NoWarn>
+    <NoWarn>
+    </NoWarn>
     <Optimize>true</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
@@ -81,60 +93,74 @@
     <Reference Include="Accessibility">
       <Name>Accessibility</Name>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v13.1.Core">
-      <Name>DevExpress.Pdf.v13.1.Core</Name>
+    <Reference Include="DevExpress.Pdf.v17.2.Core">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Pdf.v17.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Office.v13.1.Core">
-      <Name>DevExpress.Office.v13.1.Core</Name>
+    <Reference Include="DevExpress.Office.v17.2.Core">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Office.v17.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Docs.v13.1">
-      <Name>DevExpress.Docs.v13.1</Name>
+    <Reference Include="DevExpress.Docs.v17.2">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Docs.v17.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v13.1.Core">
-      <Name>DevExpress.RichEdit.v13.1.Core</Name>
+    <Reference Include="DevExpress.RichEdit.v17.2.Core">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.RichEdit.v17.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v13.1.Export">
-      <Name>DevExpress.RichEdit.v13.1.Export</Name>
+    <Reference Include="DevExpress.RichEdit.v17.2.Export">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.RichEdit.v17.2.Export.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Printing.v13.1.Core">
-      <Name>DevExpress.Printing.v13.1.Core</Name>
+    <Reference Include="DevExpress.Printing.v17.2.Core">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Printing.v17.2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.v13.1">
-      <Name>DevExpress.Data.v13.1</Name>
+    <Reference Include="DevExpress.Data.v17.2">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Data.v17.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v13.1">
-      <Name>DevExpress.Utils.v13.1</Name>
+    <Reference Include="DevExpress.Utils.v17.2">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Utils.v17.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v13.1">
-      <Name>DevExpress.XtraEditors.v13.1</Name>
+    <Reference Include="DevExpress.XtraEditors.v17.2">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraEditors.v17.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v13.1">
-      <Name>DevExpress.XtraPrinting.v13.1</Name>
-      <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
-      <Private>True</Private>
+    <Reference Include="DevExpress.XtraLayout.v17.2">
+      <HintPath>\\corp\builds\release\DXDlls\17.2.3\DevExpress.XtraLayout.v17.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v13.1">
-      <Name>DevExpress.XtraGrid.v13.1</Name>
+    <Reference Include="DevExpress.XtraPrinting.v17.2">
       <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
       <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraPrinting.v17.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.2">
+      <AssemblyFolderKey>hklm\dx debug v6.1</AssemblyFolderKey>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraGrid.v17.2.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -153,7 +179,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GridFocusedRowHighlightHelper.vb" />
     <Compile Include="Program.vb" />
     <Compile Include="AssemblyInfo.vb">
       <SubType>Code</SubType>
@@ -170,7 +195,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
-    <PreBuildEvent></PreBuildEvent>
-    <PostBuildEvent></PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
